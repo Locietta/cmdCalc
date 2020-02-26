@@ -1,3 +1,6 @@
+# cmdCalc
+simple homework#1
+
 *****************************
 **  关于commandLineCalc.c  **
 *****************************
