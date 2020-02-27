@@ -2,7 +2,7 @@
 simple homework#1
 
 *****************************
-**  关于commandLineCalc.c  **
+**关于commandLineCalc.c**
 *****************************
 简单的命令行电费计算器...(闭门造车..做的很粗糙就是了)
 version: v0.2.0
