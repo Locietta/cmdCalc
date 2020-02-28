@@ -2,12 +2,11 @@
   *finished on 2019.11.13
   */
   
-#ifndef OPSTACK_H_INCLUDED
+#ifndef INTERACTIVE_H
 #	include <stdio.h>
 #	include <stdlib.h>
 #	include <string.h>
-#	define OPSTACK_H_INCLUDED
-#endif
+#	define INTERACTIVE_H
 #include <windows.h> //for changing the color of cmd
 
 #define MAXSIZE 100
@@ -191,3 +190,5 @@ void ErrReport_currSupport(char* currName) {
 	fontcolor(YELLOW, 0);	printf("usd rmb jpy");
 	fontcolor(WHITE, 1);	puts(" only.");
 }
+
+#endif // (!defined INTERACTIVE_H)

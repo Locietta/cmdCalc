@@ -2,12 +2,13 @@
   *Stack for calculator implemented with circular linked list
   *finished on 2019.11.8
   */
-#ifndef OPSTACK_H_INCLUDED
+#ifndef OPSTACK_H
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#define OPSTACK_H_INCLUDED
-#endif
+#define OPSTACK_H
+
 
 /**
  *  CAUTION! in C, literal char is stored in int type (not char type!)
@@ -117,3 +118,5 @@ static void stack_push(stack *itself, void *data, int datatype) {
     }
     ++itself->not_empty;
 }
+
+#endif // (!defined OPSTACK_H)
